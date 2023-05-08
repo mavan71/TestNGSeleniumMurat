@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!-- <groups>-->
+    <test name="Test">
+        <!--- <groups>-->
+        <groups>
+            <run>
+               <include name="smoke"></include>
+               //<exclude name="regression"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="cw.tests.Day15.C01_Groups"/>
+            <class name="cw.tests.Day14.C07_Assertions"/>
+        </classes>
+    </test>
+</suite>

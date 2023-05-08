@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="cw.tests.Day15.C01_Groups">
+                <methods>
+                    <include name="regressionTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

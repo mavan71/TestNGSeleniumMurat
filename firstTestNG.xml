@@ -6,7 +6,9 @@
         <classes>
             <class name="cw.tests.Day14.C01_Annotations">
                 <methods>
-                    <include name="test01"></include>
+                    <include name="test01">
+
+                    </include>
                 </methods>
             </class>
 
