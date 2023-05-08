@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Test Basics 1">
+
+        <classes>
+            <class name="cw.tests.Day14.C01_Annotations">
+                <methods>
+                    <include name="test01"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test Basics 2">
+
+        <classes>
+            <class name="cw.tests.Day14.C02_Priority"/>
+
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample suite">
+    <test name="Sample Test">
+        <classes>
+            <class name="cw.tests.Day14.C07_Assertions"></class>
+            <class name="cw.tests.Day14.C02_Priority"></class>
+            <class name="cw.tests.Day14.C05_TimeOut"></class>
+        </classes>
+    </test>
+    <test name="A Sample Test">
+        <classes>
+            <class name="cw.tests.Day14.C04_Enabled"></class>
+            <class name="cw.tests.Day14.C02_Priority"></class>
+            <class name="cw.tests.Day14.C05_TimeOut"></class>
+        </classes>
+    </test>
+</suite>
