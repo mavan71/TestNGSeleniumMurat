@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Test</a></td><td class="numi">23</td><td class="numi">23</td><td class="numi_attn">1</td><td class="numi_attn">5</td><td class="numi">10,6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td>cw.tests.Day14.C03_DependsOn</td><td><a href="#m1"><b>test03</b>  </a></td><td class="numi">1</td><td>1683745740389</td><td class="numi">10</td></tr>
+<tr class="failedeven"><td>cw.tests.Day14.C05_TimeOut</td><td><a href="#m2"><b>timedOutTest</b>  </a></td><td class="numi">1</td><td>1683745740554</td><td class="numi">2005</td></tr>
+<tr class="failedodd"><td>cw.tests.Day14.C08_HardSoftAssertions</td><td><a href="#m3"><b>hard</b>  </a></td><td class="numi">1</td><td>1683745742570</td><td class="numi">9</td></tr>
+<tr class="failedeven"><td rowspan="2">cw.tests.Day16.C01_Parameters</td><td><a href="#m4"><b>parameterizedTest</b>  </a></td><td class="numi">1</td><td>1683745732186</td><td class="numi">0</td></tr><tr class="failedeven"><td><a href="#m5"><b>twoParameterTest</b>  </a></td><td class="numi">1</td><td>1683745732207</td><td class="numi">0</td></tr>
+<tr><th colspan="5">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>cw.tests.Day14.C03_DependsOn</td><td><a href="#m6"><b>test02</b>  </a></td><td class="numi">1</td><td>1683745740409</td><td class="numi">1</td></tr>
+<tr><th colspan="5">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m7"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+<tr class="passedeven"><td>cw.tests.Day15.C01_Groups</td><td><a href="#m8"><b>smokeRegressionTest</b> (regression, smoke) </a></td><td class="numi">1</td><td>1683745732158</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m9"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C04_Enabled</td><td><a href="#m10"><b>enabledTest</b>  </a></td><td class="numi">1</td><td>1683745740525</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td>cw.tests.Day14.C02_Priority</td><td><a href="#m11"><b>a</b>  </a></td><td class="numi">1</td><td>1683745732241</td><td class="numi">12</td></tr>
+<tr class="passedeven"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m12"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+<tr class="passedodd"><td>cw.tests.Day14.C05_TimeOut</td><td><a href="#m13"><b>passedTest1</b>  </a></td><td class="numi">1</td><td>1683745740548</td><td class="numi">5</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C06_Description</td><td><a href="#m14"><b>test01</b>  ("This is a description")</a></td><td class="numi">1</td><td>1683745742565</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C02_ParametersUsage</td><td><a href="#m15"><b>test01</b>  </a></td><td class="numi">1</td><td>1683745736791</td><td class="numi">2957</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C02_Priority</td><td><a href="#m16"><b>c</b>  </a></td><td class="numi">1</td><td>1683745732267</td><td class="numi">3</td></tr>
+<tr class="passedodd"><td>cw.tests.Day14.C03_DependsOn</td><td><a href="#m17"><b>test04</b>  </a></td><td class="numi">1</td><td>1683745740416</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C01_Annotations</td><td><a href="#m18"><b>test01</b>  </a></td><td class="numi">1</td><td>1683745732104</td><td class="numi">9</td></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m19"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C08_HardSoftAssertions</td><td><a href="#m20"><b>soft</b>  </a></td><td class="numi">1</td><td>1683745742583</td><td class="numi">4</td></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m21"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+<tr class="passedeven"><td>cw.tests.Day15.C01_Groups</td><td><a href="#m22"><b>regressionTest</b> (regression) </a></td><td class="numi">1</td><td>1683745732144</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>cw.tests.Day14.C05_TimeOut</td><td><a href="#m23"><b>timedOutTest2</b>  </a></td><td class="numi">1</td><td>1683745742561</td><td class="numi">3</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C03_DependsOn</td><td><a href="#m24"><b>test01</b>  </a></td><td class="numi">1</td><td>1683745740382</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>cw.tests.Day14.C01_Annotations</td><td><a href="#m25"><b>test02</b>  </a></td><td class="numi">1</td><td>1683745732131</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C02_Priority</td><td><a href="#m26"><b>b</b>  </a></td><td class="numi">1</td><td>1683745732211</td><td class="numi">6</td></tr>
+<tr class="passedodd"><td>cw.tests.Day15.C01_Groups</td><td><a href="#m27"><b>smokeTest</b> (smoke) </a></td><td class="numi">1</td><td>1683745732161</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td>cw.tests.Day14.C07_Assertions</td><td><a href="#m28"><b>assertEquals</b>  </a></td><td class="numi">1</td><td>1683745742568</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td>cw.tests.Day16.C03_DataProvider</td><td><a href="#m29"><b>test01</b>  </a></td><td class="numi">6</td><td>1683745740441</td><td class="numi">49</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">cw.tests.Day16.C01_Parameters:parameterizedTest</h2>
+<div>
+<div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;isim&apos; is required by @Test on method parameterizedTest but has not been marked @Optional or defined
+in C:\Users\erkan\IdeaProjects\TestNGSelenium\13_Listener.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 23 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">cw.tests.Day14.C03_DependsOn:test03</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: null
+	at cw.tests.Day14.C03_DependsOn.test03(C03_DependsOn.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">cw.tests.Day14.C08_HardSoftAssertions:hard</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [2] but found [1]
+	at cw.tests.Day14.C08_HardSoftAssertions.hard(C08_HardSoftAssertions.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 29 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">cw.tests.Day14.C05_TimeOut:timedOutTest</h2>
+<div>
+<div class="stacktrace">org.testng.internal.thread.ThreadTimeoutException: Method cw.tests.Day14.C05_TimeOut.timedOutTest() didn&apos;t finish within the time-out 2000
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:465)
+	at cw.tests.Day14.C05_TimeOut.timedOutTest(C05_TimeOut.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 6 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">cw.tests.Day16.C01_Parameters:twoParameterTest</h2>
+<div>
+<div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;isim&apos; is required by @Test on method twoParameterTest but has not been marked @Optional or defined
+in C:\Users\erkan\IdeaProjects\TestNGSelenium\13_Listener.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 23 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">cw.tests.Day14.C03_DependsOn:test02</h2>
+<div>
+<div class="stacktrace">java.lang.Throwable: Method cw.tests.Day14.C03_DependsOn.test02() on instance cw.tests.Day14.C03_DependsOn@48aaecc3 depends on not successfully finished methods 
+[cw.tests.Day14.C03_DependsOn.test03() on instance cw.tests.Day14.C03_DependsOn@48aaecc3
+cw.tests.Day14.C03_DependsOn.test01() on instance cw.tests.Day14.C03_DependsOn@48aaecc3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 15 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">cw.tests.Day15.C01_Groups:regressionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">cw.tests.Day14.C05_TimeOut:timedOutTest2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>Aa1aaaaa</td>
+<td>Ozel karakter yok</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">cw.tests.Day15.C01_Groups:smokeRegressionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">cw.tests.Day14.C03_DependsOn:test01</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>Aaaaaa.</td>
+<td>Sayi yok</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">cw.tests.Day14.C04_Enabled:enabledTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">cw.tests.Day14.C02_Priority:a</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>aaaaa1.</td>
+<td>Buyuk harf yok</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">cw.tests.Day14.C05_TimeOut:passedTest1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">cw.tests.Day14.C06_Description:test01</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">cw.tests.Day16.C02_ParametersUsage:test01</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">cw.tests.Day14.C01_Annotations:test02</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">cw.tests.Day14.C02_Priority:b</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">cw.tests.Day14.C02_Priority:c</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">cw.tests.Day14.C03_DependsOn:test04</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">cw.tests.Day14.C01_Annotations:test01</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>Aa1.skjdhfgsdkhjfdksjhfkdsjhfkdjshfksdhj</td>
+<td>20 harften uzun</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">cw.tests.Day14.C08_HardSoftAssertions:soft</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">cw.tests.Day15.C01_Groups:smokeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>Aa1.</td>
+<td>6 harften kisa</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">cw.tests.Day14.C07_Assertions:assertEquals</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">cw.tests.Day16.C03_DataProvider:test01</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>karl@gmail.com</td>
+<td>AAAAA1.</td>
+<td>Kucuk harf yok</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests" thread-count="2">
+    <test name="Parallel Test 1">
+        <classes>
+            <class name="cw.tests.Day14.C02_Priority"></class>
+        </classes>
+    </test>
+
+    <test name="Parallel Test 2">
+        <classes>
+            <class name="cw.tests.Day14.C05_TimeOut"></class>
+        </classes>
+    </test>
+
+    <test name="Parallel Test 3">
+        <classes>
+            <class name="cw.tests.Day14.C03_DependsOn"></class>
+        </classes>
+    </test>
+
+    <test name="Parallel Test 4">
+        <classes>
+            <class name="cw.tests.Day14.C07_Assertions"></class>
+        </classes>
+    </test>
+
+</suite>

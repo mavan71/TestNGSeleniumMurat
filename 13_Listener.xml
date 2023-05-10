@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <!--        Kendi yazdigimiz listener classimiz-->
+
+        <!--        <listener class-name="cw.tests.Day18.C01_Listener"/>-->
+
+        <!--        Bizler icin hazir yazilan TestNG Listener classlari -->
+
+        <!--        <listener class-name="org.testng.reporters.EmailableReporter"/>-->
+        <!--        <listener class-name="org.testng.reporters.FailedReporter"/>-->
+        <!--        <listener class-name="org.testng.reporters.EmailableReporter2"/>-->
+        <!--        <listener class-name="org.testng.reporters.TestHTMLReporter"/>-->
+    </listeners>
+    <test name="Test">
+
+        <packages>
+            <package name="cw.tests.Day14"/>
+            <package name="cw.tests.Day15"/>
+            <package name="cw.tests.Day16"/>
+        </packages>
+    </test>
+</suite>>

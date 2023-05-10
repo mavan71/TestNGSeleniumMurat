@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Suite" data-provider-thread-count="3"> <!-- (parallel="methods") yazmayınca paralel çalışmıyor. -->
+    <test name="Paralel DataProvider Test">
+        <classes>
+            <class name="cw.tests.Day17.C04_DataProvideParalel"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Cros Browser Testing (Aynı testi birden fazla browserde çalıştırmak)-->
+<suite name="Suite" parallel="tests">
+    <test name="Test">
+
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="cw.tests.Day16.C02_ParametersUsage"></class>
+        </classes>
+
+    </test>
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"></parameter>
+
+        <classes>
+            <class name="cw.tests.Day16.C02_ParametersUsage"></class>
+        </classes>
+    </test>
+</suite>
